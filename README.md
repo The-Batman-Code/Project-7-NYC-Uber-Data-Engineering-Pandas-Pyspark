@@ -15,4 +15,4 @@ This Data Analytics/Data Engineering project involves normalizing/denormalizing 
 # How to deploy it yourself? 👇
 1. Clone this repository and place it in your working directory.
 2. Run the analytics.ipynb file and it will create your fact and dimension tables as shown in the data model diagram below
-3. 
+![](Data-Model.png)
