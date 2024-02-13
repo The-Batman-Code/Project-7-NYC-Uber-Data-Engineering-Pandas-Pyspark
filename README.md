@@ -33,6 +33,7 @@ This Data Analytics/Data Engineering project involves normalizing/denormalizing 
 ```
 sudo apt-get update
 sudo apt install python3-pip
+pip install google-cloud-aiplatform
 pip install mage-ai
 ```
 6. Now give the VM a restart by stopping and starting it.
@@ -58,4 +59,32 @@ mage start <YOUR-PROJECT-NAME>
 ![](Mage-Access-3.png)
 
 16. Now click on create. You should now be able to access Mage from the same link you used earlier in step 9.
+17. You will see the Mage UI like below. Click on the 'New' button, then click on Standard(batch) button.
+18. Click on the 'Data Loader' button -> 'Python' -> 'API'.
+19. Give it a name and click on 'Save and add'.
+20. Now we need the link to our csv data to put it in the code so create a bucket in google cloud storage, make it public and put it's link in the 'Data-Loader.py' file in the mage folder.
+21. Paste the code in the 'Data Loader' section in Mage.
+22. Now below the 'Data Loader' section, click on the 'Transformer' button -> Python -> Generic(no template).
+23. Paste the code from 'transformation.py' file in the mage folder.
+24. Now click on the 'Data Exporter' button below the 'Transformer' code and paste the code in 'Data-Exporter.py' file in the mage folder.
+25. To be able to export data into Bigquery we need a Service Account. Create a service account and put it's credentials in the 'io_config.yaml' file in Mage.
+![](Config-gcp.png)
+
+![](Config-gcp-2.png)
+
+26. Now after the credentials are set, create a dataset in Bigquery and paste it's information accordingly in the 'Data-Exporter.py' code. Now run each cell of loader, transformation and exporter. You will get your data loaded in Bigquery like this.
+![](Bigquery.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
