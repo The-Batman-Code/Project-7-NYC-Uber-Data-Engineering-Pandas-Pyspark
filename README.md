@@ -14,5 +14,13 @@ This Data Analytics/Data Engineering project involves normalizing/denormalizing 
 
 # How to deploy it yourself? 👇
 1. Clone this repository and place it in your working directory.
-2. Run the analytics.ipynb file and it will create your fact and dimension tables as shown in the data model diagram below
+2. Run the analytics.ipynb file and it will create your fact and dimension tables as shown in the data model diagram below.
 ![](Data-Model.png)
+
+3. Now the local work is done, it's time to move to Google Cloud Platform🍻.
+4. In the Google Cloud Console create a VM under the Compute Engine section with the following configruations-
+![](Config-1.png)
+![](Config-2.png)
+![](Config-3.png)
+![](Config-4.png)
+![](Config-5.png)
