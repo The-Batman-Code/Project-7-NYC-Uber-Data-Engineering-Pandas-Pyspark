@@ -86,6 +86,10 @@ mage start <YOUR-PROJECT-NAME>
 
 ![](SQL-2.png)
 
+2. Now we can also utilize Bigquery to build a Dasboard, but to do so we need a table which has all the columns we need to make it. In order to do that we run the following SQL query - 
+
+![](all-table.png)
+
 
 
 
