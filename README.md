@@ -28,3 +28,17 @@ This Data Analytics/Data Engineering project involves normalizing/denormalizing 
 ![](Config-4.png)
 
 ![](Config-5.png)
+
+5. After the VM is up and running, SSH into it and run the following commands -
+```
+sudo apt-get update
+sudo apt install python3-pip
+pip install mage-ai
+```
+6. Now give the VM a restart by stopping and starting it.
+7. Again SSH into it and enter the following command -
+```
+mage start <YOUR-PROJECT-NAME>
+```
+8. You will see the following in your SSH terminal.
+
