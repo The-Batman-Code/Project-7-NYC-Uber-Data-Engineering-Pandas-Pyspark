@@ -43,6 +43,7 @@ mage start <YOUR-PROJECT-NAME>
 ```
 8. You will see the following in your SSH terminal.
 ![](SSH-Terminal-Mage.png)
+
 9. Now open a new tab in your browser and put the following link -
 ```
 <YOUR-VM-EXTERNAL-IP>:6789
@@ -52,6 +53,7 @@ mage start <YOUR-PROJECT-NAME>
 12. You will get redirected to Network Interface details section. on the left panel click on the firewall section.
 13. In the upper panel click on the 'Create Firewall Rule'.
 14. Enter the following settings -
+
 ![](Mage-Access-1.png)
 
 ![](Mage-Access-2.png)
@@ -68,6 +70,7 @@ mage start <YOUR-PROJECT-NAME>
 23. Paste the code from 'transformation.py' file in the mage folder.
 24. Now click on the 'Data Exporter' button below the 'Transformer' code and paste the code in 'Data-Exporter.py' file in the mage folder.
 25. To be able to export data into Bigquery we need a Service Account. Create a service account and put it's credentials in the 'io_config.yaml' file in Mage.
+
 ![](Config-gcp.png)
 
 ![](Config-gcp-2.png)
