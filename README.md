@@ -101,6 +101,9 @@ mage start <YOUR-PROJECT-NAME>
 
 ![](Images/dashboard-3.png)
 
+### Thank you for reading till here. I hope you implemented this as well🫠
+
+#### Have a nice day🍻
 
 
 
