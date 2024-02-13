@@ -73,7 +73,15 @@ mage start <YOUR-PROJECT-NAME>
 ![](Config-gcp-2.png)
 
 26. Now after the credentials are set, create a dataset in Bigquery and paste it's information accordingly in the 'Data-Exporter.py' code. Now run each cell of loader, transformation and exporter. You will get your data loaded in Bigquery like this.
+
 ![](Bigquery.png)
+
+# Extra - 
+1. Now you can run some analytical SQL queries like the ones shown below -
+
+![](SQL-1.png)
+
+![](SQL-2.png)
 
 
 
