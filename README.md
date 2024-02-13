@@ -42,3 +42,20 @@ mage start <YOUR-PROJECT-NAME>
 ```
 8. You will see the following in your SSH terminal.
 ![](SSH-Terminal-Mage.png)
+9. Now open a new tab in your browser and put the following link -
+```
+<YOUR-VM-EXTERNAL-IP>:6789
+```
+10. The link won't work... hahah... Bummer!!! Let's get it to work.
+11. In the internal IP section of your VM, click on the 'nic0' link.
+12. You will get redirected to Network Interface details section. on the left panel click on the firewall section.
+13. In the upper panel click on the 'Create Firewall Rule'.
+14. Enter the following settings -
+![](Mage-Access-1.png)
+
+![](Mage-Access-2.png)
+
+![](Mage-Access-3.png)
+
+16. Now click on create. You should now be able to access Mage from the same link you used earlier in step 9.
+
