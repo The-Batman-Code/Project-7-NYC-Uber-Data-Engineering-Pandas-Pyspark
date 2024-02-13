@@ -41,4 +41,4 @@ pip install mage-ai
 mage start <YOUR-PROJECT-NAME>
 ```
 8. You will see the following in your SSH terminal.
-
+![](SSH-Terminal-Mage.png)
