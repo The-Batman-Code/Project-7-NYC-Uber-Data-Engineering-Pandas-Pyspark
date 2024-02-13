@@ -1,6 +1,6 @@
 # Project-7-NYC-Uber-Data-Engineering
 
-![](Images\Data-Flow.png)
+![](Images/Data-Flow.png)
 
 
 # Introduction - 
