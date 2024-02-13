@@ -11,3 +11,8 @@ This Data Analytics/Data Engineering project involves normalizing/denormalizing 
 5. Google Cloud's Bigquery
 6. Google Cloud's Compute Engine
 7. Looker Studio
+
+# How to deploy it yourself? 👇
+1. Clone this repository and place it in your working directory.
+2. Run the analytics.ipynb file and it will create your fact and dimension tables as shown in the data model diagram below
+3. 
