@@ -93,6 +93,14 @@ mage start <YOUR-PROJECT-NAME>
 
 ![](Images/all-table.png)
 
+3. We can make a dashboard like the one below -
+
+![](Images/dashboard-1.png)
+
+![](Images/dashboard-2.png)
+
+![](Images/dashboard-3.png)
+
 
 
 
