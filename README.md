@@ -18,19 +18,19 @@ This Data Analytics/Data Engineering project involves normalizing/denormalizing 
 # How to deploy it yourself? 👇
 1. Clone this repository and place it in your working directory.
 2. Run the analytics.ipynb file and it will create your fact and dimension tables as shown in the data model diagram below.
-![](Data-Model.png)
+![](Images/Data-Model.png)
 
 3. Now the local work is done, it's time to move to Google Cloud Platform🍻.
 4. In the Google Cloud Console create a VM under the Compute Engine section with the following configruations-
-![](Config-1.png)
+![](Images/Config-1.png)
 
-![](Config-2.png)
+![](Images/Config-2.png)
 
-![](Config-3.png)
+![](Images/Config-3.png)
 
-![](Config-4.png)
+![](Images/Config-4.png)
 
-![](Config-5.png)
+![](Images/Config-5.png)
 
 5. After the VM is up and running, SSH into it and run the following commands -
 ```
@@ -45,7 +45,7 @@ pip install mage-ai
 mage start <YOUR-PROJECT-NAME>
 ```
 8. You will see the following in your SSH terminal.
-![](SSH-Terminal-Mage.png)
+![](Images/SSH-Terminal-Mage.png)
 
 9. Now open a new tab in your browser and put the following link -
 ```
@@ -57,11 +57,11 @@ mage start <YOUR-PROJECT-NAME>
 13. In the upper panel click on the 'Create Firewall Rule'.
 14. Enter the following settings -
 
-![](Mage-Access-1.png)
+![](Images/Mage-Access-1.png)
 
-![](Mage-Access-2.png)
+![](Images/Mage-Access-2.png)
 
-![](Mage-Access-3.png)
+![](Images/Mage-Access-3.png)
 
 16. Now click on create. You should now be able to access Mage from the same link you used earlier in step 9.
 17. You will see the Mage UI like below. Click on the 'New' button, then click on Standard(batch) button.
@@ -74,24 +74,24 @@ mage start <YOUR-PROJECT-NAME>
 24. Now click on the 'Data Exporter' button below the 'Transformer' code and paste the code in 'Data-Exporter.py' file in the mage folder.
 25. To be able to export data into Bigquery we need a Service Account. Create a service account and put it's credentials in the 'io_config.yaml' file in Mage.
 
-![](Config-gcp.png)
+![](Images/Config-gcp.png)
 
-![](Config-gcp-2.png)
+![](Images/Config-gcp-2.png)
 
 26. Now after the credentials are set, create a dataset in Bigquery and paste it's information accordingly in the 'Data-Exporter.py' code. Now run each cell of loader, transformation and exporter. You will get your data loaded in Bigquery like this.
 
-![](Bigquery.png)
+![](Images/Bigquery.png)
 
 # Extra - 
 1. Now you can run some analytical SQL queries like the ones shown below -
 
-![](SQL-1.png)
+![](Images/SQL-1.png)
 
-![](SQL-2.png)
+![](Images/SQL-2.png)
 
 2. Now we can also utilize Bigquery to build a Dasboard, but to do so we need a table which has all the columns we need to make it. In order to do that we run the following SQL query - 
 
-![](all-table.png)
+![](Images/all-table.png)
 
 
 
