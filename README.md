@@ -19,8 +19,12 @@ This Data Analytics/Data Engineering project involves normalizing/denormalizing 
 
 3. Now the local work is done, it's time to move to Google Cloud Platform🍻.
 4. In the Google Cloud Console create a VM under the Compute Engine section with the following configruations-
-![](Config-1.png | width=100)
+![](Config-1.png)
+
 ![](Config-2.png)
+
 ![](Config-3.png)
+
 ![](Config-4.png)
+
 ![](Config-5.png)
