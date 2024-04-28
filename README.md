@@ -139,7 +139,7 @@ sudo docker run -it --name mage_spark -e SPARK_MASTER_HOST='local' -p 6789:6789 
 
 ![](Images/final2.png)
 
-16. The steps that need to be followed after this are mentioned above👆👆
+16. The steps that need to be followed after this are mentioned above this section in this README file👆👆
 
 ### Thank You again👋👋
 
