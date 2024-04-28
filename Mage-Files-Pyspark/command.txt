@@ -1,0 +1,4 @@
+1. docker stop 7fd1f83f2888
+2. docker rm 7fd1f83f2888
+3. sudo docker run -it --name mage_spark -e SPARK_MASTER_HOST='local' -p 6789:6789 -v $(pwd):/home/src mage_spark   /app/run_app.sh mage start uber-analytics
+4. All these commands after installing mage_spark from website using docker
