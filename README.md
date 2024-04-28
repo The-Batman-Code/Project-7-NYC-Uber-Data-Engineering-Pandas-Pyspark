@@ -128,7 +128,7 @@ sudo docker run -it --name mage_spark -e SPARK_MASTER_HOST='local' -p 6789:6789 
 8. In Mage's UI, create a new pipeline and name it whatever you want.
 9. Now in the edit pipeline section add a scratchpad section shown below👇
 
-![](scratchpad.png)
+![](Images/scratchpad.png)
 
 10. Paste the code written in scratchpad.py file provided in the Mage-Files-Pyspark folder.
 11. Now create Data Loader Section and simply paste the code provided in data-loader.py file in Mage-Files-Pyspark folder.
@@ -137,7 +137,7 @@ sudo docker run -it --name mage_spark -e SPARK_MASTER_HOST='local' -p 6789:6789 
 14. You will have to make the necessary changes in the above code files according to your Google Cloud and Service Account credentials.
 15. After everything is done, the final page should look like this👇
 
-![](final2.png)
+![](Images/final2.png)
 
 16. The steps that need to be followed after this are mentioned above👆👆
 
