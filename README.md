@@ -105,7 +105,12 @@ mage start <YOUR-PROJECT-NAME>
 
 #### Have a nice day🍻
 
+# Pyspark Update 🍻 - 
+Here we will be replacing the transformations that we did earlier using pandas with pyspark. The newly updated files are in the 'Mage-Files-Pyspark' folder in this repository.
 
+### How to do it??🤔
+1. First we will have to install pyspark compatible Mage on our VM. To do so please refer to this official link by Mage (You need very basic understanding of Docker and very basic Docker commands) -> [Click Here](https://docs.mage.ai/integrations/spark-pyspark)
+2. 
 
 
 
