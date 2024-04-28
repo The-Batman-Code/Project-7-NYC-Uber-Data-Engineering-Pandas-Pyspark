@@ -109,7 +109,7 @@ mage start <YOUR-PROJECT-NAME>
 # Pyspark Update 🍻 - 
 Here we will be replacing the transformations that we did earlier using pandas with pyspark. The newly updated files are in the 'Mage-Files-Pyspark' folder in this repository.
 
-### How to do it??🤔
+## How to do it??🤔
 1. Restart the VM.
 2. First we need to install Spark in our VM because Pyspark is just a python wrapper around the acutal Spark which is in Java. To do so refer to this link -> [Click Here](https://linuxgenie.net/how-to-install-apache-spark-on-ubuntu-22-04/)
 3. Now install pyspark using the following command -
