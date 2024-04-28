@@ -110,7 +110,10 @@ Here we will be replacing the transformations that we did earlier using pandas w
 
 ### How to do it??🤔
 1. First we will have to install pyspark compatible Mage on our VM. To do so please refer to this official link by Mage (You need very basic understanding of Docker and very basic Docker commands) -> [Click Here](https://docs.mage.ai/integrations/spark-pyspark)
-2. 
+2. After you have successfully installed Pyspark-Mage in the VM, use the following command to start Mage.
+```
+sudo docker run -it --name mage_spark -e SPARK_MASTER_HOST='local' -p 6789:6789 -v $(pwd):/home/src mage_spark   /app/run_app.sh mage start <YOUR-PROJECT-NAME-USED-EARLIER>
+```
 
 
 
