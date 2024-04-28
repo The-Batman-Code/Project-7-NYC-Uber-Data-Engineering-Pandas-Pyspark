@@ -109,11 +109,40 @@ mage start <YOUR-PROJECT-NAME>
 Here we will be replacing the transformations that we did earlier using pandas with pyspark. The newly updated files are in the 'Mage-Files-Pyspark' folder in this repository.
 
 ### How to do it??🤔
-1. First we will have to install pyspark compatible Mage on our VM. To do so please refer to this official link by Mage (You need very basic understanding of Docker and very basic Docker commands) -> [Click Here](https://docs.mage.ai/integrations/spark-pyspark)
-2. After you have successfully installed Pyspark-Mage in the VM, use the following command to start Mage.
+1. Restart the VM.
+2. First we need to install Spark in our VM because Pyspark is just a python wrapper around the acutal Spark which is in Java. To do so refer to this link -> [Click Here](https://linuxgenie.net/how-to-install-apache-spark-on-ubuntu-22-04/)
+3. Now install pyspark using the following command -
+```
+pip install pyspark
+```
+4. Now we will have to install pyspark compatible Mage on our VM. To do so please refer to this official link by Mage (You need very basic understanding of Docker and very basic Docker commands) -> [Click Here](https://docs.mage.ai/integrations/spark-pyspark)
+5. After you have successfully installed Pyspark-Mage in the VM, use the following command to start Mage.
 ```
 sudo docker run -it --name mage_spark -e SPARK_MASTER_HOST='local' -p 6789:6789 -v $(pwd):/home/src mage_spark   /app/run_app.sh mage start <YOUR-PROJECT-NAME-USED-EARLIER>
 ```
+6. This will start Mage with our project we had earlier created. Check again Mage's UI whose port we had configured in our VM before by using this link -
+```
+<EXTERNAL-IP-ADDRESS-OF-YOUR-VM:6789>
+```
+7. If all the above steps go successfully, we can now start using pyspark for the tranformations.
+8. In Mage's UI, create a new pipeline and name it whatever you want.
+9. Now in the edit pipeline section add a scratchpad section shown below👇
+
+![](scratchpad.png)
+
+10. Paste the code written in scratchpad.py file provided in the Mage-Files-Pyspark folder.
+11. Now create Data Loader Section and simply paste the code provided in data-loader.py file in Mage-Files-Pyspark folder.
+12. Next create the Transformer Section and again paste the code provided in transformer.py file in Mage-Files-Pyspark folder.
+13. To put the nail in the coffin create the Data Exporter Section and paste the code provided in data-exporter.py file in Mage-Files-Pyspark folder.
+14. You will have to make the necessary changes in the above code files according to your Google Cloud and Service Account credentials.
+15. After everything is done, the final page should look like this👇
+
+![](final2.png)
+
+16. The steps that need to be followed after this are mentioned above👆👆
+
+### Thank You again👋👋
+
 
 
 
