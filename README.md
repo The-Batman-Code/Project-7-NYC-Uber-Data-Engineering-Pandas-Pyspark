@@ -14,7 +14,8 @@ This Data Analytics/Data Engineering project involves normalizing/denormalizing 
 4. Google Cloud Storage
 5. Google Cloud's Bigquery
 6. Google Cloud's Compute Engine
-7. Looker Studio
+7. Mage ETL tool
+8. Looker Studio
 
 # How to deploy it yourself? 👇
 1. Clone this repository and place it in your working directory.
