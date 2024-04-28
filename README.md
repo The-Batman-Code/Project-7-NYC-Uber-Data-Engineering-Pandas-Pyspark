@@ -124,7 +124,7 @@ sudo docker run -it --name mage_spark -e SPARK_MASTER_HOST='local' -p 6789:6789 
 ```
 <EXTERNAL-IP-ADDRESS-OF-YOUR-VM:6789>
 ```
-7. If all the above steps go successfully, we can now start using pyspark for the tranformations.
+7. If all the above steps are successful, we can now start using pyspark for the tranformations.
 8. In Mage's UI, create a new pipeline and name it whatever you want.
 9. Now in the edit pipeline section add a scratchpad section shown below👇
 
