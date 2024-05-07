@@ -1,4 +1,4 @@
-# Project-7-NYC-Uber-Data-Engineering-Pandas-Pyspark
+# Project-7-NYC-Uber-Data-Engineering-Pandas-Pyspark-Mage
 
 ![](Images/Data-Flow.png)
 
